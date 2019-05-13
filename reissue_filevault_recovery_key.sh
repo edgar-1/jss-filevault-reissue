@@ -20,7 +20,7 @@
 ################################## VARIABLES ##################################
 
 # Company logo. (Tested with PNG, JPG, GIF, PDF, and AI formats.)
-LOGO="/Library/Application Support/PretendCo/logo@512px.png"
+LOGO="/Library/Application Support/Propeller/Logo.png"
 
 # The title of the message that will be displayed to the user.
 # Not too long, or it'll get clipped.
@@ -28,20 +28,20 @@ PROMPT_TITLE="Encryption Key Escrow"
 
 # The body of the message that will be displayed before prompting the user for
 # their password. All message strings below can be multiple lines.
-PROMPT_MESSAGE="Your Mac's FileVault encryption key needs to be escrowed by PretendCo IT.
+PROMPT_MESSAGE="Your Mac's FileVault encryption key needs to be escrowed by Propeller's Infrastructure Team.
 
 Click the Next button below, then enter your Mac's password when prompted."
 
 # The body of the message that will be displayed after 5 incorrect passwords.
 FORGOT_PW_MESSAGE="You made five incorrect password attempts.
 
-Please contact the Help Desk at 555-1212 for help with your Mac password."
+Please contact Edgar for help with your Mac password."
 
 # The body of the message that will be displayed after successful completion.
 SUCCESS_MESSAGE="Thank you! Your FileVault key has been escrowed."
 
 # The body of the message that will be displayed if a failure occurs.
-FAIL_MESSAGE="Sorry, an error occurred while escrowing your FileVault key. Please contact the Help Desk at 555-1212 for help."
+FAIL_MESSAGE="Sorry, an error occurred while escrowing your FileVault key. Please contact Edgar for help."
 
 # Optional but recommended: The profile identifiers of the FileVault Key
 # Redirection profiles (e.g. ABCDEF12-3456-7890-ABCD-EF1234567890).
